@@ -1,0 +1,343 @@
+:root {
+  --mainbg: #162027;
+  --maincomp: #FF0000;
+  --textcolor: #FFFFFF;
+  --bgimg: initial;
+  --mdbg: rgba(22, 32, 39, 0.75);
+}
+
+
+.button:hover {
+  background-color: var(--maincomp);
+  color: var(--textcolor);
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--mainbg);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  border-radius: 36px;
+}
+
+.resetbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px; position: fixed; top: 56.5%; left: 90%; translate: -50% -50%;}
+.accbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
+.bgbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
+.bgimgbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
+.customimgbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
+
+
+.custom {
+  border-color: blue;
+  background-color: var(--mainbg); 
+  font-size: 32px; 
+  height: 64px; 
+  width: 240px; 
+  border-radius: 32px; 
+}
+
+#infop {
+  font-size: 22px;
+  color: var(--textcolor);
+}
+
+#acclabel {
+  font-size: 32px;
+  color: var(--textcolor);
+}
+
+#bglabel {
+  font-size: 32px;
+  color: var(--textcolor);
+}
+
+#bgimglabel {
+  font-size: 32px;
+  color: var(--textcolor);
+}
+
+#info {
+  display: flex;
+  justify-content: flex-start;
+  height: 80px;
+  width: 900px;
+  font-size: 16px;
+}
+
+
+#accselector {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 160px;
+  width: 900px;
+  font-size: 16px;
+}
+
+#bgselector {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 160px;
+  width: 900px;
+  font-size: 16px;
+}
+
+#bgimgselector {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 160px;
+  width: 900px;
+  font-size: 16px;
+}
+
+#settingcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  color: var(--maincomp);
+  top: 1%;
+  left: 50%;
+  translate: -50% 0%;
+  overflow-y: scroll;
+  gap: 1em;
+  
+}
+
+.gameimage {
+  width: 100%;
+  height: 100%;
+}
+
+#gamecontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  min-height: 95%;
+  padding: 10px;
+  width: 97%;
+  height: 90%;
+  position: fixed;
+  color: var(--maincomp);
+  cursor: pointer;
+  top: 1%;
+  left: 50%;
+  translate: -50% 0%;
+  overflow-y: scroll;
+  gap: 1em;
+  
+}
+
+#gameframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.show {
+  display: sh;
+}
+
+.filterDiv {
+  margin: 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0;
+  position: relative;
+  float: left;
+  align-content: center;
+  width: 100%;
+  text-align: center;
+  margin: 2px;
+  display: show; /* Hidden by default */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin: 0 auto;
+  z-index: 1;
+  min-width: 260px;
+  max-width: 340px;
+  min-height: 220px;
+  max-height: 340px;
+  overflow:hidden;
+}
+
+#myInput {
+  border-radius: 32px;
+  padding: 16px;
+  background: var(--mainbg);
+  border: 8px solid var(--maincomp);
+  width: 22%;
+  align-items: center;
+  height: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  translate: -50% -50%;
+  font-size: 24px;
+  color:var(--textcolor);
+}
+
+#gameheading {
+  color: var(--textcolor);
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  translate: -50% -50%;
+  font-size: 48px;
+}
+
+html {
+  background-color: var(--mainbg);
+}
+
+
+
+#maindiv {
+  align-content: center;
+  padding: 10px;
+  width: 90%;
+  height: 72%;
+  background-color: var(--mdbg);
+  position: absolute;
+  color: var(--maincomp);
+  display: inline-block;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 64px;
+  border: 8px solid var(--maincomp);
+  top: 20%;
+  left: 50%;
+  translate: -50% 0%;
+
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  display: var(--bgimg);
+}
+
+.gradient {
+  height: 100%;
+  width: 100%;
+  background-image:linear-gradient(to top, var(--mainbg), transparent);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+#main {
+  text-align: center;
+  font-size: 48px;
+  color: var(--textcolor);
+  position: absolute;
+  top: 5%;
+  translate: -50% -50%;
+}
+
+#barbuttons {
+  width: 90%;
+  height: 64px;
+  padding: 1px;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#bar {
+  z-index: 0;
+  align-content: center;
+  padding: 8px;
+  width: 90%;
+  height: 14%;
+  background-color: var(--mainbg);
+  position: fixed;
+  color: var(--maincomp);
+  display: inline-block;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 64px;
+  border: 8px solid var(--maincomp);
+  top: 1%;
+  left: 50%;
+  translate: -50% 0%;
+
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: var(--maincomp);
+  border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--maincomp);
+}
+
+.button {
+  color: var(--textcolor);
+  padding: 8px 8px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: var(--mainbg);
+  transition-duration: 0.4s;
+  border: 8px solid var(--maincomp);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: auto;
+}
+
+.material-symbols-outlined {
+  font-size: 64px;
+}
+
+.button1 {background-color: var(--mainbg); font-size: 32px; height: 96px; width: 300px; border-radius: 32px;}
+.gamebutton {background-color: var(--mainbg); font-size: 32px; height: 100%; width: 100%; border-radius: 32px; overflow: hidden;}
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+

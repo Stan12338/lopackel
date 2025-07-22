@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>lopackel</title>
+    <link rel="stylesheet" href="frame.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script> 
+        function get() {
+            let frame = document.getElementById("gameframe")
+            var params = new URLSearchParams(window.location.search);
+            var link = params.get("link");
+            frame.src = link
+        }
+        get()
+    </script>
+    
+</head>
+
+<body>
+    <div id="container">
+        <div class="gradient"></div>
+        <img src="https://specials-images.forbesimg.com/imageserve/678b5bfa16f1f66f3b5f978d/Gundam-GQuuuuuuX/960x0.jpg?fit=scale" id="background">
+    </div>
+
+    <div id="gamearea">
+        <div id="top">
+            <button type="button" class="button returnbutton" onclick = "location.href='index.html'">
+            back
+            </button>
+            <h1 id="lopackel">lopackel</h1>
+        </div>
+        <iframe id="gameframe"></iframe>
+    </div>
+    
+
+    <script> 
+        function get() {
+            let frame = document.getElementById("gameframe")
+            var params = new URLSearchParams(window.location.search);
+            var link = params.get("link");
+            frame.src = link
+        }
+        get()
+    </script>
+    <script src="colors.js"></script>
+</body>
+
+</html>

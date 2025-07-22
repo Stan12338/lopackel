@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>lopackel</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script>
+        function pass(passed) {
+            var url = passed;
+            var params = new URLSearchParams
+            params.append("link", url)
+            location.href = "gameframe.html?" + params.toString()
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="gradient"></div>
+        <img src="https://specials-images.forbesimg.com/imageserve/678b5bfa16f1f66f3b5f978d/Gundam-GQuuuuuuX/960x0.jpg?fit=scale" id="background">
+    </div>
+    <div id="stuff">
+    <div id="bar">
+        <div id="barbuttons">
+        <button type="button" class="button button1" onclick = "location.href='index.html'">
+            <span class="material-symbols-outlined">
+                sports_esports
+            </span>Games
+        </button>
+        <div id="heading">
+        <h1 id="main">lopackel</h1>
+        <input type="text" id="myInput" placeholder="Type to filter games">
+        </div>
+        <button type="button" class="button button1" onclick = "location.href='settings.html'">
+            <span class="material-symbols-outlined">
+                settings
+            </span>Info/Settings
+        </button>
+        </div>
+    </div>
+    <div id="maindiv">
+        <div id="gamecontainer">
+            
+            <div class="filterDiv polytrack">
+                <button type="button" class="button gamebutton" onclick = "pass('games/polytrack/index.html')"> 
+                    Polytrack
+                    <img src="https://i.ytimg.com/vi/wXsG1d9TzdI/maxresdefault.jpg" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv funnyshooter">
+                <button type="button" class="button gamebutton" onclick = "pass('games/funnyshooter2/index.html')"> 
+                    Funny Shooter
+                    <img src="https://imgs.crazygames.com/funny-shooter-2_16x9/20241113090815/funny-shooter-2_16x9-cover?metadata=none&quality=60&width=1200&height=630&fit=crop" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv snowrider">
+                <button type="button" class="button gamebutton" onclick = "pass('games/snowrider-3d/index.html')"> 
+                    Snow Rider
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTutePJNl8jX07t5WytXKMG3fxm0g_iXmgEjQ&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv clusterrush">
+                <button type="button" class="button gamebutton" onclick = "pass('games/cluster-rush/index.html')"> 
+                    Cluster Rush
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE7Z7Q69Owvy9OkY3c7zS0usoIEeao-kKbJA&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv slope">
+                <button type="button" class="button gamebutton" onclick = "pass('games/slope/game.html')"> 
+                    Slope
+                    <img src="https://slope-run.io/data/image/game/slope.jpg" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv tag">
+                <button type="button" class="button gamebutton" onclick = "pass('games/tag/index.html')"> 
+                    Tag
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0t3c54XjoTUbFaPAbt-UR4sPVptP16nPB7g&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv 1v1lol">
+                <button type="button" class="button gamebutton" onclick = "pass('games/1v1lol/index.html')"> 
+                    1v1.lol
+                    <img src="https://imgs.crazygames.com/games/1v1-lol/cover-1585728351086.png?metadata=none&quality=60&width=1200&height=630&fit=crop" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv rocketleague">
+                <button type="button" class="button gamebutton" onclick = "pass('games/rocket-league/index.html')"> 
+                    Rocket League
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJANR1OZtB3WTef1I80MZGu8t93BEfj5BfXg&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv slowroads">
+                <button type="button" class="button gamebutton" onclick = "pass('games/slow-roads/index.html')"> 
+                    Slowroads
+                    <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3431300/header.jpg?t=1749486786" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv superhot">
+                <button type="button" class="button gamebutton" onclick = "pass('games/superhot/index.html')"> 
+                    Super hot
+                    <img src="https://store-images.s-microsoft.com/image/apps.26998.14403786429145611.9f2e7b9a-cb26-4b5a-9084-94a4c0a65307.b4e2418b-399a-40bd-8228-2fe30f444e05?q=90&w=480&h=270" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv subwaysurfers">
+                <button type="button" class="button gamebutton" onclick = "pass('games/subwaysurfers/index.html')"> 
+                    Subway Surfers
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gsmDhZuJqdXxUzsSwVta6mzP1mYW_xrqTg&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv minecraft">
+                <button type="button" class="button gamebutton" onclick = "pass('games/eaglercraft/index.html')"> 
+                    Minecraft
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBw9g6jfRMqOerLIjz4rhmQK5-V3D19bbjdw&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv bloonstd4">
+                <button type="button" class="button gamebutton" onclick = "pass('games/bloonstd4/index.html')"> 
+                    Bloons Td 4
+                    <img src="https://m.media-amazon.com/images/I/81WI-AozVvL.png" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv geometrydash">
+                <button type="button" class="button gamebutton" onclick = "pass('games/geometrydash/Geometry Dash v1.html')"> 
+                    Geometry Dash
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/capsule_616x353.jpg?t=1703006148" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv geometrydashmeltdown">
+                <button type="button" class="button gamebutton" onclick = "pass('games/geometrydashmeltdown/Geometry Dash Meltdown.html')"> 
+                    GeomDash Meltdown
+                    <img src="https://i.ytimg.com/vi/10By2X_deNU/sddefault.jpg" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv geometrydashsubzero">
+                <button type="button" class="button gamebutton" onclick = "pass('games/geometrydashsubzero/Geometry Dash Subzero.html')"> 
+                    GeomDash Subzero
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwX6WkDxAc5vZluliGtmJk8ynpJFrIgndg-A&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv geometrydashworld">
+                <button type="button" class="button gamebutton" onclick = "pass('games/geometrydashworld/Geometry Dash World Toxic Factory.html')"> 
+                    GeomDash World
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR56DjcXKig8En-k1-POaZJ2FFc4OwewIG3Eg&s" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv bitlife">
+                <button type="button" class="button gamebutton" onclick = "pass('games/bitlife/index.html')"> 
+                    Bitlife
+                    <img src="https://d.newsweek.com/en/full/1317374/bitlife-ribbons-how-get-all-complete-list-android-ios-cheats-guide-tips-become.jpg?w=1600&h=1600&q=88&f=75befc746fb83a0c568c44ca07bc5e64" class="gameimage">
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="colors.js"></script>
+
+</body>
+
+</html>
