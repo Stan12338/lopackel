@@ -22,13 +22,13 @@ body {
 }
 
 
-.infobutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px; position: fixed; top: 30.5%; left: 90%; translate: -50% -50%;}
+.infobutton{background-color: var(--mainbg); font-size: 32px; height: 10%; width: 10%; border-radius: 32px; position: fixed; top: 30.5%; left: 90%; translate: -50% -50%;}
 
-.resetbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px; position: fixed; top: 56.5%; left: 90%; translate: -50% -50%;}
-.accbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
-.bgbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
-.bgimgbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
-.customimgbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
+.resetbutton{background-color: var(--mainbg); font-size: 32px; height: 10%; width: 10%; border-radius: 32px; position: fixed; top: 56.5%; left: 90%; translate: -50% -50%;}
+.accbutton{background-color: var(--mainbg); font-size: 32px; height: 100%; width: 25%; border-radius: 32px;}
+.bgbutton{background-color: var(--mainbg); font-size: 32px; height: 100%; width: 25%; border-radius: 32px;}
+.bgimgbutton{background-color: var(--mainbg); font-size: 32px; height: 100%; width: 25%; border-radius: 32px;}
+.customimgbutton{background-color: var(--mainbg); font-size: 32px; height: 100%; width: 25%; border-radius: 32px;}
 
 
 .custom {
@@ -41,22 +41,22 @@ body {
 }
 
 #infop {
-  font-size: 22px;
+  font-size: 140%;
   color: var(--textcolor);
 }
 
 #acclabel {
-  font-size: 32px;
+  font-size: 200%;
   color: var(--textcolor);
 }
 
 #bglabel {
-  font-size: 32px;
+  font-size: 200%;
   color: var(--textcolor);
 }
 
 #bgimglabel {
-  font-size: 32px;
+  font-size: 200%;
   color: var(--textcolor);
 }
 
@@ -73,8 +73,8 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  height: 160px;
-  width: 900px;
+  height: 23%;
+  width: 80%;
   font-size: 16px;
 }
 
@@ -82,8 +82,8 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  height: 160px;
-  width: 900px;
+  height: 23%;
+  width: 80%;
   font-size: 16px;
 }
 
@@ -91,8 +91,8 @@ body {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  height: 160px;
-  width: 900px;
+  height: 23%;
+  width: 80%;
   font-size: 16px;
 }
 
