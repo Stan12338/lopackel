@@ -175,7 +175,7 @@ body {
   border: 8px solid var(--maincomp);
   width: 22%;
   align-items: center;
-  height: 20px;
+  height: 20%;
   position: absolute;
   top: 70%;
   left: 50%;
@@ -327,7 +327,7 @@ html {
   font-size: 64px;
 }
 
-.button1 {background-color: var(--mainbg); font-size: 32px; height: 96px; width: 300px; border-radius: 32px;}
+.button1 {background-color: var(--mainbg); font-size: 32px; height: 96px; width: 20%; border-radius: 32px;}
 .gamebutton {background-color: var(--mainbg); font-size: 32px; height: 100%; width: 100%; border-radius: 32px; overflow: hidden;}
 
 
