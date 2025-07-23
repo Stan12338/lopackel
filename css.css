@@ -21,6 +21,9 @@ body {
   border-radius: 36px;
 }
 
+
+.infobutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px; position: fixed; top: 30.5%; left: 90%; translate: -50% -50%;}
+
 .resetbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px; position: fixed; top: 56.5%; left: 90%; translate: -50% -50%;}
 .accbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
 .bgbutton{background-color: var(--mainbg); font-size: 32px; height: 64px; width: 240px; border-radius: 32px;}
