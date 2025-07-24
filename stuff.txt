@@ -1,3 +1,0 @@
-run this command in terminal to turn the localhost into a temporary server:
-
-cloudflared tunnel --url http://localhost:5500
