@@ -15,6 +15,13 @@ body {
   border-radius: 36px;
 }
 
+h3 {
+  color: var(--textcolor);
+  position: fixed;
+  top: 1.5%;
+  left:55.5%
+}
+
 #info {
   display: flex;
   justify-content: flex-start;
