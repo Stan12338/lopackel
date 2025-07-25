@@ -22,7 +22,22 @@
     </div>
     <div id="stuff">
     <div id="bar">
-        <div id="barbuttons">
+        <button type="button" class="button button1" onclick = "location.href='index.html'" id="gogamebutton">
+            <span class="material-symbols-outlined">
+                sports_esports
+            </span>Games
+        </button>
+        <button type="button" class="button button1" onclick = "location.href='settings.html'" id="gosettingsbutton">
+            <span class="material-symbols-outlined">
+                settings
+            </span>Info/Settings
+        </button>
+        <div id = "maindivheading">
+            <h1 id="main">lopackel</h1>
+        </div>
+        <input type="text" id="myInput" placeholder="Type to filter games">
+        
+        <!-- <div id="barbuttons">
         <button type="button" class="button button1" onclick = "location.href='index.html'">
             <span class="material-symbols-outlined">
                 sports_esports
@@ -37,7 +52,7 @@
                 settings
             </span>Info/Settings
         </button>
-        </div>
+        </div> -->
     </div>
     <div id="maindiv">
         <div id="gamecontainer">
@@ -109,9 +124,9 @@
                 </button>
             </div>
             <div class="filterDiv minecraft">
-                <button type="button" class="button gamebutton" onclick = "pass('games/eaglercraft/index.html')"> 
+                <button type="button" class="button gamebutton" onclick = "pass('games/minecraft/game.html')"> 
                     Minecraft
-                    <img src="games/eaglercraft/minecraft.jpg" class="gameimage">
+                    <img src="games/minecraft/minecraft.jpg" class="gameimage">
                 </button>
             </div>
             <div class="filterDiv bloonstd4">
@@ -190,6 +205,36 @@
                 <button type="button" class="button gamebutton" onclick = "pass('games/fnaf4/index.html')"> 
                     Fnaf 4
                     <img src="games/fnaf4/logo.webp" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv gunspin">
+                <button type="button" class="button gamebutton" onclick = "pass('https://hypackelcloudflare.pages.dev/files/gunspinupdate/')"> 
+                    Gunspin
+                    <img src="games/gunspin/splash.jpeg" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv ragdollarchers">
+                <button type="button" class="button gamebutton" onclick = "pass('games/ragdoll-archers/index.html')"> 
+                    Ragdoll Archers
+                    <img src="games/ragdoll-archers/logo.jpeg" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv run">
+                <button type="button" class="button gamebutton" onclick = "pass('games/run3/index.html')"> 
+                    Run 3
+                    <img src="games/run3/favicon.png" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv blockblast">
+                <button type="button" class="button gamebutton" onclick = "pass('games/blockblast/index.html')"> 
+                    Block blast
+                    <img src="games/blockblast/s.png" class="gameimage">
+                </button>
+            </div>
+            <div class="filterDiv boxingrandom">
+                <button type="button" class="button gamebutton" onclick = "pass('games/boxing-random/index.html')"> 
+                    Boxing Random
+                    <img src="games/boxing-random/512x340.jpg" class="gameimage">
                 </button>
             </div>
         </div>
